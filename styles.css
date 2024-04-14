@@ -94,6 +94,21 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--col-1);
 }
 
+.button .two{
+    color: var(--col-3);
+    background-color: var(--col-2);
+}
+
 .button a{
     color: inherit;
+}
+
+.button .one:hover{
+    color: var(--col-3);
+    background-color: var(--col-2);
+}
+
+.button .two:hover{
+    color: var(--col-2);
+    background-color: var(--col-1);
 }
