@@ -6,9 +6,9 @@
 }
 
 :root{
-    --col-1: #21261f;
-    --col-2: #3c9157;
-    --col-3: #ffffff;
+    --col-1: #ffffff;
+    --col-2: #6ca3f2;
+    --col-3: #3e455b;
 }
 
 html{
@@ -47,6 +47,10 @@ nav > a:hover{
     color: var(--col-3);
 }
 
+nav > a:active{
+    color: var(--col-3);
+}
+
 section{
     padding-top: 120px; 
 }
@@ -74,4 +78,14 @@ h1,h2,h3,h4,h5,h6{
 .button{
     display: flex;
     justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.button button{
+    width: 40%;
+    margin: 5%;
+    font-size: 15px;
+    padding: 10px 0;
+    border-radius: 2rem;
+    background-color: var(--col-1);
 }
