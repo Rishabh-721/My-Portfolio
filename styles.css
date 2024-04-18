@@ -113,3 +113,39 @@ h1,h2,h3,h4,h5,h6{
     color: var(--col-2);
     background-color: var(--col-1);
 }
+
+.heading{
+    text-align: center;
+}
+
+
+.second{
+    display: block;
+    margin: auto;
+    height: 200px;
+    filter: grayscale(100);
+    border-radius: 1rem;
+    position: sticky;
+    z-index: -1;
+}
+
+.details{
+    display: flex;
+    flex-direction: row wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.info{
+    width: 45%;
+}
+
+.roundframe-border{
+    border: 1px solid var(--col-3);
+    border-radius: 1rem;
+}
+
+.fa-solid{
+    color: var(--col-3);
+}
