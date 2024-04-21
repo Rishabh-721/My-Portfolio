@@ -65,10 +65,10 @@ h1,h2,h3,h4,h5,h6{
 
 .profile{
     max-width: 250px;
-    width: 100%;
+    width: 45%;
     border-radius: 50%;
     display: block;
-    margin: 10px auto 10px auto;
+    margin: 100px auto 10px ;
 }
 
 .button{
@@ -116,6 +116,7 @@ h1,h2,h3,h4,h5,h6{
 
 .heading{
     text-align: center;
+    padding: 10px;
 }
 
 .info{
@@ -150,4 +151,26 @@ h1,h2,h3,h4,h5,h6{
 
 .decoration > .fa-solid{
     color: var(--col-3);
+}
+
+.caption{
+    color: var(--col-3);
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.Skills{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 10px 0;
+    border: 1px solid var(--col-3);
+    width: 90%;
+    margin: 10PX auto;
+    border-radius: 1rem;
 }
