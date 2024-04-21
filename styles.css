@@ -9,6 +9,7 @@
     --col-1: #21261f;
     --col-2: #3c9157;
     --col-3: #ffffff;
+    --col-4: #ccc;
 }
 
 html{
@@ -51,7 +52,7 @@ section{
     padding-top: 120px; 
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h5,h6{
     color: var(--col-3);
 }
 
@@ -201,9 +202,56 @@ ul{
 
 .preview a{
     text-decoration: none;
-}
-
-.preview a:hover{
     color: var(--col-2);
 }
 
+.preview a:hover{
+    color: var(--col-3);
+}
+
+.contact{
+    display: block;
+    background-color: var(--col-4);
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-size: 25px;
+    max-width: 900px;
+    border-radius: 1rem;
+}
+
+.contact a{
+    color: var(--col-1);
+    text-decoration: none;
+}
+
+.github a:hover{
+    color:  #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.WhatsApp a:hover{
+    color: #25d366;
+    font-family: Helvetica, sans-serif;
+}
+
+.Mail a:hover{
+    color: #ff3c41;
+    font-family: sans-serif;
+}
+
+.Linkdin a:hover{
+    color: #0077b5;
+    font-family: "Reddit Mono", monospace;
+}
+
+.Codepen a:hover{
+    color: #000;
+    font-family: monospace;
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0 20px;
+}
