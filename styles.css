@@ -182,7 +182,7 @@ ul{
     width: 90%;
     margin: 10PX auto;
     border-radius: 1rem;
-    aspect-ratio: 3/2;
+    max-width: 300px;
 }
 
 .projects{
@@ -193,7 +193,7 @@ ul{
 
 .preview{
     width: 90%;
-    margin: 10px auto;
+    margin: 15px 15px;
     text-align: center;
     border: 1px solid var(--col-2);
     padding: 20px 0 20px;
@@ -279,6 +279,7 @@ footer {
 
     .components{
         padding: 150px 0 10px;
+        width: 300px;
     }
     
     .profile{
@@ -287,7 +288,7 @@ footer {
     }
 
     .second{
-        margin: 50px 0 0;
+        margin: 100px 0 0;
         height: 200px;
     }
 
@@ -295,12 +296,62 @@ footer {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
+        height: calc(100vh - 120px);
     }
 
     .aboutme-info{
         max-width: 500px;
     }
 
-    
+    .skills{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        width: 600px;
+        margin: auto;
+    }
 
+    ul{
+         height: fit-content;
+    }
+
+    .projects{
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .preview{
+       max-width: 300px;  
+    }
+
+    .contact{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .skills{
+        width: 900px;
+    }
+
+    ul{
+        font-size: 20px;
+        height: max-content;
+    }
+
+    .preview {
+        max-width: 500px;
+    }
+
+    .preview img{
+        max-width: 450px;
+    }
+
+    .projects{
+        max-width: 1200px;
+    }
 }
