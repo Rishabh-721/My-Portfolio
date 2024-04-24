@@ -130,7 +130,7 @@ h1,h2,h3,h5,h6{
 
 .aboutme{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 .second{
@@ -307,7 +307,7 @@ footer {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
-        width: 600px;
+        width: 700px;
         margin: auto;
     }
 
