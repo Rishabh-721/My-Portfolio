@@ -128,8 +128,6 @@ h1,h2,h3,h5,h6{
     font-family: Lora;
 }
 
-/* MY SECOND SECTION */
-
 .aboutme{
     display: flex;
     flex-flow: column wrap;
@@ -141,7 +139,7 @@ h1,h2,h3,h5,h6{
     margin: 10px auto;
     border-radius: 1rem;
     width: 30%;
-    aspect-ratio: 0.95;
+    aspect-ratio: 1/1;
     max-width: 200px;
 }
 
@@ -278,9 +276,31 @@ footer {
     display: flex;
     justify-content: space-evenly;
     }
+
+    .components{
+        padding: 150px 0 10px;
+    }
     
     .profile{
         width: 300px;
-        margin: auto;
+        margin: auto 0;
     }
+
+    .second{
+        margin: 50px 0 0;
+        height: 200px;
+    }
+
+    .aboutme{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
+    .aboutme-info{
+        max-width: 500px;
+    }
+
+    
+
 }
