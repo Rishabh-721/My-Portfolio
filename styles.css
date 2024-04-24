@@ -65,7 +65,7 @@ h1,h2,h3,h5,h6{
     height: 100vh;
 }
 
-.info{
+.info, .aboutme{
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -128,6 +128,13 @@ h1,h2,h3,h5,h6{
     font-family: Lora;
 }
 
+/* MY SECOND SECTION */
+
+.aboutme{
+    display: flex;
+    flex-flow: column wrap;
+}
+
 .second{
     filter: grayscale(10);
     display: block;
@@ -138,7 +145,7 @@ h1,h2,h3,h5,h6{
     max-width: 200px;
 }
 
-.details{
+.aboutme-details{
     max-width: 450px;
     display: flex;
     justify-content: space-evenly;
@@ -276,14 +283,4 @@ footer {
         width: 300px;
         margin: auto;
     }
-
-    .components{
-        display: block;
-        margin: auto;
-    }
-
-    .second{
-
-    }
-    
 }
